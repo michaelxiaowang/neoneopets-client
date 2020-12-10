@@ -1,0 +1,19 @@
+.login-content {
+  margin: auto;
+  max-width: 50rem;
+}
+
+.login-input {
+  border: 1px solid var(--ion-color-primary);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  max-width: 40rem;
+}
+
+.login-input .native-input {
+  --padding-start: 1rem;
+}
+
+.login-button {
+  max-width: 40rem;
+}
