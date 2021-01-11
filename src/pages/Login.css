@@ -1,13 +1,19 @@
-.login-content {
+ion-card {
   margin: auto;
-  max-width: 50rem;
+  margin-top: 2rem;
+  max-width: 40rem;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-input {
   border: 1px solid var(--ion-color-primary);
   border-radius: 0.25rem;
   margin-bottom: 1rem;
-  max-width: 40rem;
+  width: 100%;
 }
 
 .login-input .native-input {
@@ -15,5 +21,10 @@
 }
 
 .login-button {
-  max-width: 40rem;
+  max-width: 10rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
 }
